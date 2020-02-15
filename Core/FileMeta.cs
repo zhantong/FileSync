@@ -8,7 +8,7 @@ namespace FileSync.Core
         public string Name { get; set; }
         public long Size { get; set; }
         public string ETag { get; set; }
-        public DateTime LastModified { get; set; }
+        public DateTimeOffset LastModified { get; set; }
         public string Crc64 { get; set; }
         public string Md5 { get; set; }
     }
